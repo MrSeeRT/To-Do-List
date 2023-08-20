@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(/boy-looking-moon-night.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    background: rgba(0,0, 0, 0.7);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middleOne{
+    min-height: 700px;
+    width: 700px;
+    background-color: rgba(255, 255, 255, 0.052);
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.301) ;
+}
+.wrap{
+    width: 100%;
+    background-color: rgba(246, 243, 243, 0);
+    height: 60px;
+    transform: translateY(1px);
+    border-radius: 5px;
+    position: relative;
+}
+#inputbox{
+    width: 97%;
+    height: 35px;
+    padding: 5px;
+    position: absolute;
+    /* margin-top: 15px; */
+    margin: 11px;
+    border: none;
+    font-size: medium;
+    display: block;
+    border-radius: 5px;
+}
+#inputbox:focus{
+    border: 0;
+    outline: 0;
+}
+/* UL LISTS */
+#todolist{
+    list-style: none;
+    /* margin: 5px; */
+}
+#todolist li{
+    background-color: rgb(2, 12, 21);
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right:25px;
+    text-align: justify;
+    min-height: 35px;
+    font-size: large;
+    color: rgba(255, 255, 255, 0.818);
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+}
+#todolist li i{
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
